@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+
+$body-bg: #060E4A;
+$body-color: #BABBCB;
+$link-color: #BA287D;
+$border-radius: 10px;
+$light-bg-text-color: #321f13;
+$code-block-font-size: 1em;
+$presentation-heading-letter-spacing	: normal;
+
+// $font-family-sans-serif: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, Palatino !default;
+/*-- scss:rules --*/
+
+// headings
+// $presentation-heading-font: "Palatino Linotype", "Book Antiqua", Palatino,
+//   FreeSerif, serif !default;
+$presentation-heading-color: #7a728c !default;
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.reveal strong, .reveal b {
+  font-weight: bold;
+  color: rgb(36, 34, 42);
+  }
+
+.reveal .slide-logo {
+    display: block;
+    position: fixed;
+    // bottom: unset !important;
+    // right: unset !important;
+    bottom: 5px;
+    right: 12px;
+    height: 100px !important;
+    width: 100x !important;
+    max-width: unset !important;
+    max-height: unset !important;
+  }
